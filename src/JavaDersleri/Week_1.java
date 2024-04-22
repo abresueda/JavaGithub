@@ -1,4 +1,4 @@
 package JavaDersleri;
 
-public class İlkClass {
+public class Week_1 {
 }

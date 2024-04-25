@@ -23,6 +23,8 @@ public class SinifGecme {
         System.out.print("Müzik Notunuz: ");
         muzik = inp.nextInt();
 
+        //Else if yapısıyla ortalamayı hesapla.
+
         if (!((0 <= mat) && (mat <= 100) && (0 <= fizik) && (fizik <= 100.) && (0 <= turkce) && (turkce <= 100) && (0 <= kimya) && (kimya <= 100) && (0 <= muzik) && (muzik <= 100))) {
             System.out.print("Notlarınız değerlendirmeye alınmamıştır.");
         } else {
@@ -32,6 +34,9 @@ public class SinifGecme {
             } else {
                 System.out.println("Tebrikler! Sınıfı Geçtiniz.");
             }
+
+        System.out.print("Ortalamanız: " + avarage);
+
         }
     }
 }

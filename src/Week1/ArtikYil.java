@@ -13,7 +13,7 @@ public class ArtikYil {
         boolean leapyear;
         System.out.print("Yıl Giriniz: ");
         year = inp.nextInt();
-        leapyear = ((year % 4 == 0 ) || (year % 400 == 0 && year % 100 == 0));
+        leapyear = ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
 
         //If-else yapısını kullanarak artık yıl hesabını yazdır.
         if (leapyear) {

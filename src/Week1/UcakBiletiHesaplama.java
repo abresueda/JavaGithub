@@ -17,7 +17,7 @@ public class UcakBiletiHesaplama {
         age = inp.nextInt();
 
         //Yolcunun tek yön veya gidiş-dönüş seçeneğini tanımladık.
-        System.out.println("Yolculuk tipinizi seçiniz.\n1 / 2");
+        System.out.println("Yolculuk tipinizi seçiniz.\n1=Tek Yön / 2= Gidiş-Dönüş");
         int flight = inp.nextInt();
 
         if (flight == 1) {

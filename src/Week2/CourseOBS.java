@@ -15,8 +15,8 @@ public class CourseOBS {
         this.teacher=teacher;
         this.performance=0;
         int note=0;
-
     }
+
     void addTeacher(TeacherOBS teacher) {
         if (teacher.branch.equals(this.prefix)) {
             this.teacher = teacher;

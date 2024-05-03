@@ -2,6 +2,7 @@ package Week2;
 
 public class OgrenciBilgiSistemi {
     public static void main(String[] args) {
+
         TeacherOBS t1=new TeacherOBS("Erdem Hoca",  "Matematik", "050550");
         TeacherOBS t2=new TeacherOBS("Yeliz Hoca", "Fizik", "060660");
         TeacherOBS t3=new TeacherOBS("Ayşe Hoca", "Tarih","070770");
@@ -32,6 +33,5 @@ public class OgrenciBilgiSistemi {
         s3.addBulkExamNote(20,55,77);
         s3.performance(70,90,85);
         s3.isPass();
-
     }
 }

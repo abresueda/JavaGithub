@@ -58,8 +58,8 @@ public class StudentOBS {
         }else{
             System.out.println("Sınıfı geçemediniz.");
             this.isPass=false;
-        }
-        printNote();
+
+        } printNote();
     }
 
     void printNote(){

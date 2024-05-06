@@ -1,4 +1,4 @@
-package Week2;
+package Week2.OgrenciBilgiSistemi;
 
 public class CourseOBS {
     TeacherOBS teacher;

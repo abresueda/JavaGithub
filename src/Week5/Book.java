@@ -60,12 +60,7 @@ public class Book implements Comparable <Book> {
             System.out.println(book);
         }
 
-        Set <Book> booksByPage = new TreeSet<>(new Comparator<Book>() {
-            @Override
-            public int compare(Book o1, Book o2) {
-                return Integer.compare(o1.getPage(), o2.getPage());
-            }
-        });
+        Set <Book> booksByPage = new TreeSet<>(Comparator.comparingInt(Book::getPage));
 
         booksByPage.add(b1);
         booksByPage.add(b2);
@@ -76,7 +71,7 @@ public class Book implements Comparable <Book> {
         System.out.println("******************************************************************************************");
 
         System.out.println("Sayfa Sayısına Göre Kitaplar: ");
-        for (Book page: books) {
+        for (Book page: booksByPage) {
             System.out.println(page);
         }
     }
